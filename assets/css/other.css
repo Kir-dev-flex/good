@@ -1,0 +1,10 @@
+.other {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px;
+    padding-top: 100px;
+}
+
+.other h1, .other h2, .other ul, .other ol, .other p {
+    margin-bottom: 24px;
+}

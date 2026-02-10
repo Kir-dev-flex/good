@@ -1,0 +1,38 @@
+.why {
+    background-color: #000;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+.why__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 40px;
+}
+
+.why__title {
+    margin-bottom: 16px;
+}
+
+.why__subtitle {
+    margin-bottom: 32px;
+}
+
+.why__link {
+    padding: 12px 24px;
+    color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    border-radius: 1000px;
+    display: inline-block;
+}
+
+@media (max-width: 870px) {
+    .why__wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 40px;
+    }
+}
